@@ -1,0 +1,10 @@
+{
+    "name": "dehuk/password-generator",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Dehuk\\PasswordGenerator\\": "src/"
+        }
+    },
+    "require": {}
+}
