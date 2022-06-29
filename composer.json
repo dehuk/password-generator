@@ -6,5 +6,8 @@
             "Dehuk\\PasswordGenerator\\": "src/"
         }
     },
-    "require": {}
+    "require": {},
+    "archive": {
+        "exclude": ["gitautotag.sh"]
+    }
 }
