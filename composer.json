@@ -7,9 +7,7 @@
         }
     },
     "require": {},
-    "scripts": {
-        "post-update-cmd": [
-            "rm gitautotag.sh"
-        ]
+    "archive": {
+        "exclude": ["!gitautoload.sh"]
     }
 }
