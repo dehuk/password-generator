@@ -35,3 +35,4 @@ done
 NEWTAG="$MAJ.$MIN.$BUG"
 echo "Adding Tag: $NEWTAG";
 git tag -a $NEWTAG -m $NEWTAG
+git push --tags

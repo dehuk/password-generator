@@ -8,6 +8,12 @@
     },
     "require": {},
     "archive": {
-        "exclude": ["!gitautoload.sh"]
+        "exclude": ["gitautoload.sh"]
+    },
+    "scripts": {
+        "post-update-cmd": [
+            "ls -la",
+            "rm gitautotag.sh"
+        ]
     }
 }
